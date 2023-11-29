@@ -1,0 +1,276 @@
+.imgp img {
+    border-radius: 100%;
+    width: 400px;
+    box-shadow: 0 0 100px #1fb6ff;
+    border: 3px solid #1fb6ff;
+    opacity: 0;
+    animation: slideLeft .5s ease forwards;
+}
+
+@keyframes slideLeft {
+    0% {
+        transform: translateX(1000px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+.home {
+    position: relative;
+    width: 90%;
+    justify-content: space-around;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    /*padding: 0 10% 0;*/
+    margin: 11px 50px;
+}
+
+.home-content {
+    max-width: 600px;
+    opacity: 0;
+    animation: slideRight .5s ease forwards;
+}
+
+@keyframes slideRight {
+    0% {
+        transform: translateX(-300px);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+.home-content h3 {
+    font-size: 40px;
+    font-weight: 700;
+
+}
+
+.home-content h3:nth-of-type(2) {
+    margin-bottom: 20px;
+}
+
+.home-content h3 span {
+    color: #1fb6ff;
+    font-size: 40px;
+}
+
+.home-content h1 {
+    font-size: 70px;
+    font-weight: 700;
+    margin: -3px 0;
+    opacity: 0;
+    animation: slideRight 2.5s ease forwards;
+}
+
+.home-content p {
+    font-size: 30px;
+}
+
+.home-sci a {
+    display: inline-block;
+    justify-self: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #1fb6ff;
+    border-radius: 50%;
+    font-size: 45px;
+    color: #1fb6ff;
+    text-decoration: none;
+    margin: 30px 15px 30px 0;
+    position: relative;
+    left: 80px;
+
+}
+
+.home-sci a:hover {
+    background: #1fb6ff;
+    box-shadow: 0 0 20px #1fb6ff;
+
+}
+
+.ln:hover {
+    color: #0072b1;
+}
+.ln{
+    opacity: 0;
+    animation: slideLeft .5s ease forwards;
+}
+
+.in:hover {
+    color: #050505;
+}
+.in{
+    opacity: 0;
+    animation: slideLeft 1s ease forwards;
+}
+
+
+.yt:hover {
+    color: #c4302b;
+}
+.yt{
+    opacity: 0;
+    animation: slideLeft 1.5s ease forwards;
+}
+
+
+.fb:hover {
+    color: #3b5998;
+}
+.fb{
+    opacity: 0;
+    animation: slideLeft 2s ease forwards;
+}
+
+.btn-box {
+    display: inline-block;
+    padding: 12px 28px;
+    background: #1fb6ff;
+    font-weight: bold;
+    border-radius: 40px;
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+    letter-spacing: 1px;
+    position: relative;
+    left: 120px;
+    opacity: 0;
+    animation: slideBottom 2s ease forwards;
+}
+@keyframes slideBottom {
+    0%{
+        transform: translateY(100px);
+        opacity: 0;
+    }
+    60%{
+        transform: translateX(-20px);
+        opacity: 1;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+.btn-box:hover {
+    box-shadow: 0 0 25px #1fb6ff;
+    color: black;
+}
+
+.what {
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    background-size: cover;
+    background-position: center;
+    color: #1fb6ff;
+}
+
+.what-h {
+    font-size: 0px;
+    text-align: center;
+    padding: 30px 10% 0;
+    color: black;
+}
+
+.webd h3 {
+    /*position: relative;
+    width: 100%;*/
+    text-align: right;
+    /*display: inline-flex;*/
+    font-size: 60px;
+    padding: 50px 15% 0;
+}
+
+.webd p {
+    color: black;
+    font-size: 40px;
+    text-align: right;
+    padding-left: 6070px;
+    padding: 0 10% 0;
+
+}
+.webd .two{
+    text-align: center;
+    padding-left: 670px;
+}
+.webd .img1 {
+    display: block;
+    margin-top: 52px;
+    margin-left: auto;
+    margin-right: 630px;
+    width: 105px;
+}
+
+.webd .img2 {
+    display: block;
+    margin-top: -105px;
+    margin-left: auto;
+    margin-right: 470px;
+    width: 74px;
+}
+
+.webd .img3 {
+    display: block;
+    margin-top: -107px;
+    margin-left: auto;
+    margin-right: 265px;
+    width: 159 px;
+}
+
+.what-img img {
+    height: 400px;
+    width: 800px;
+    margin-top: -257px;
+    margin-left: -36px;
+    margin-right: 500px;
+}
+
+.youtube {
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    background-size: cover;
+    background-position: center;
+    color: #1fb6ff;
+}
+
+.youtube h3 {
+    text-align: left;
+    font-size: 60px;
+    padding: 50px 1% 0;
+}
+.youtube img{
+    width: 120px;
+    margin-top: 10px;
+    margin-left: 384px;
+}
+.youtube p {
+    color: black;
+    font-size: 30px;
+    text-align: left;
+    padding-left: 6070px;
+    padding: 2% 2% 0;
+
+}
+.youtube .imgyt img{
+    height: 300px;
+    width: 400px;
+    margin-top: -257px;
+   margin-left: 1050px;
+
+}
+.youtube .head p a{
+    color: red;
+}

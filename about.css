@@ -1,0 +1,159 @@
+.ab{
+    height: 400px;
+}
+.ab h1{
+    font-size: 80px;
+    text-align: center;
+    color: #1fb6ff;
+}
+.para{
+    text-align: center;
+    padding: 20px 5% 20px 5%;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.sk{
+    height: 220px;
+}
+.sk h1{
+    font-size: 80px;
+    text-align: center;
+}
+.html{
+    display: block;
+    margin-top: 52px;
+    margin-left: auto;
+    margin-right: 1230px;
+    width: 105px;
+}
+.css{
+    
+    display: block;
+    margin-top: -105px;
+    margin-left: auto;
+    margin-right: 1064px;
+    width: 74px;
+}
+.js{
+    
+    display: block;
+    margin-top: -107px;
+    margin-left: auto;
+    margin-right: 842px;
+}
+.cpp{
+    
+    display: block;
+    margin-top: -112px;
+    margin-left: auto;
+    margin-right: 718px;
+    width: 76px;
+}
+.c{
+    
+    display: block;
+    margin-top: -88px;
+    margin-left: auto;
+    margin-right: 537px;
+    width: 76px;
+}
+.py{
+    
+    display: block;
+    margin-top: -80px;
+    margin-left: auto;
+    margin-right: 358px;
+    width: 76px;
+}
+.sql{
+    
+    display: block;
+    margin-top: -90px;
+    margin-left: auto;
+    margin-right: 138px;
+    width: 112px;
+}
+
+.ed h1{
+    font-size: 80px;
+    text-align: center;
+}
+
+
+.ipulogo{
+    
+    position: relative;
+    width: 100%;
+    justify-content: space-around;
+    height: 40vh;
+    background-size: cover;
+    background-position: center;
+    display: inline-flex;
+    align-items: center;
+    padding: 0 10% 0;
+}
+
+.ipulogo img{
+    border-radius: 100%;
+    /*border: 4px solid black;*/
+    width: 200px;
+    box-shadow: 0 0 10px #000000;
+}
+.ipud{
+    padding: 20px 10px 20px 10px;
+    margin-left: 100px;
+    border-radius: 4px;
+    width: 100%;
+    box-shadow: 0 0 3px #000000;
+}
+.ipud h1{
+    font-size: 30px;
+    padding: 10px;
+}
+.ipud h3{
+    font-size: 20px;
+}
+.year{
+    text-align: right;
+    font-weight: bold;
+}
+
+
+.dulogo{
+    
+    position: relative;
+    width: 100%;
+    justify-content: space-around;
+    background-size: cover;
+    background-position: center;
+    display: inline-flex;
+    align-items: center;
+    padding: 0 10% 0;
+}
+
+.dulogo img{
+    border-radius: 100%;
+    width: 200px;
+    box-shadow: 0 0 10px #000000;
+}
+.dud{
+    padding: 20px 10px 20px 10px;
+    margin-left: 100px;
+    border-radius: 4px;
+    width: 100%;
+    box-shadow: 0 0 3px #000000;
+}
+.dud h1{
+    font-size: 30px;
+    padding: 10px;
+}
+.dud h2{
+    text-align: center;
+}
+.dud h3{
+    font-size: 20px;
+}
+.year{
+    text-align: right;
+}

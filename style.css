@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.header {
+    padding: 30px 10%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.4);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    border-bottom: 2px solid rgb(165, 162, 162);
+   display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+}
+
+.logo {
+    position: relative;
+    font-size: 40px;
+    color: #1fb6ff;
+    text-decoration: none;
+    font-weight: 600;
+    cursor: pointer;
+    opacity: 0;
+    animation: slideRight .5s ease forwards;
+}
+
+@keyframes slideRight {
+    0%{
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+
+.navbar a {
+    font-size: 35px;
+    color: #1fb6ff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+    opacity: 0;
+    animation:  slideTop .5s ease forwards;
+}
+@keyframes slideTop {
+    0%{
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
+.navbar a:active{
+    background-color: rgb(4, 49, 251);
+    color: #fb0404;
+}
+.navbar a:hover {
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.navbar a.active {
+    color: #716969;
+    text-decoration: underline;
+}
+
+.foot{
+    background-color: gray;
+    border-top: 2px solid rgb(52, 52, 52);
+    padding: 20px 20px;
+    width: 100%;
+   text-align: center;
+
+}
+.foot div p{
+    width: 100%;
+    bottom: 0px;
+    text-align: center;
+   /* padding: 30px 10%;*/
+   /* margin: 10px;*/
+    color: #ffffff;
+    font-size: 20px;
+}
